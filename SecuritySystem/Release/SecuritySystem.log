@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  bignumber.cpp
+  binarytree.cpp
+  guesser.cpp
+  interface.cpp
+  lock.cpp
+  locksystem.cpp
+  SecuritySystem.cpp
+  utilities.cpp
+  Generando código
+  All 845 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  SecuritySystem.vcxproj -> D:\Descargas\Visual Studio Projects\CourseWork2(1)\CourseWork2\SecuritySystem2\Release\SecuritySystem.exe

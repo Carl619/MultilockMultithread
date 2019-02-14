@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{fb0a1af9-6e08-4b51-9f47-f88314eb5036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{91257f81-eb2f-494c-be4d-78f4de715e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lock">
+      <UniqueIdentifier>{a7c226e3-8d27-420c-ab7b-eba2cbf076f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lock">
+      <UniqueIdentifier>{555ae6f7-2d68-48a1-b534-daa4e4acfaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Guesser">
+      <UniqueIdentifier>{98ec5413-5f48-4819-b544-38c92767af1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Guesser">
+      <UniqueIdentifier>{35c83fa5-1adf-49f2-9827-655ee0e0ccac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="binarytree.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>Header Files\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="locksystem.h">
+      <Filter>Header Files\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="guesser.h">
+      <Filter>Header Files\Guesser</Filter>
+    </ClInclude>
+    <ClInclude Include="bignumber.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecuritySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="lock.cpp">
+      <Filter>Source Files\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="locksystem.cpp">
+      <Filter>Source Files\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="guesser.cpp">
+      <Filter>Source Files\Guesser</Filter>
+    </ClCompile>
+    <ClCompile Include="bignumber.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
